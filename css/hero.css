@@ -1,0 +1,43 @@
+.hero {
+    background-color: #e1c4c4;
+    margin: 160px 100px 149px 100px;
+    border: 1px solid #000;
+border-radius: 30px;
+
+}
+.hero .container {
+ display: flex;
+}
+.hero-title {
+    padding: 80px 467px 20px 50px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 1.0625;
+    letter-spacing: -0.04em;
+    color: var(--white);
+}
+.photographer {
+    
+}
+.hero-title-descr{
+    padding: 20px 612px 136px 50px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: var(--white);
+}
+.students-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.students{
+    display: flex;
+}
+.students-li:not(:last-child) {
+    margin-right: -13px;
+}
